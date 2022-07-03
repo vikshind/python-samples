@@ -10,8 +10,8 @@
 	
 ## 	Simulate phone dialing pad
 	Convert a number to string using the standard phone keyboard
-	
-	1   | 2 abc | 3 def
+```	
+    1   | 2 abc | 3 def
 --------+-------+--------
   4 ghi | 5 jkl | 6 mno
 --------+-------+--------
@@ -20,7 +20,7 @@
         | 0     |
 
 assert phone_string("226222") == "bmc"
-
+```
 	Solutions	: Implemented in 2 ways
 		Solution 1 : Brute froce method, just implemented simple linear way of parsing string. Used Python Dict, and regx at some places
 			https://github.com/vikshind/python-samples/blob/master/discovery/PhoneString.py
